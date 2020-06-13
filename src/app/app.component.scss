@@ -1,0 +1,259 @@
+.img-activity {
+    width: 134%;
+    height: 65px;
+    margin-top: 7px;
+}
+.title-activity {
+    margin: 0;
+    font-size: 12px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box-activity {
+    margin-bottom: 8px;
+}
+.text-small {
+    color: grey;
+}
+.author-activity {
+    font-size: 16px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.img-channels {
+    padding-top: 5px;
+    width: 50%;
+    height: 80px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+.box-channel {
+    background-color: lightgrey;
+    border: 5px solid #fff;
+    margin-top: 10px;
+    height: 120px;
+}
+.text-channel {
+    font-size: 14px;
+    color: grey;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.img-big-video {
+    width: 540px;
+    object-fit: fill;
+    margin-top: 10px;
+    width: 540px;
+    height: 325px;
+}
+.img-small {
+    height: 168px;
+    width: 263px;
+    padding-top: 10px;
+}
+.box-image-small {
+    margin-right: -15px;
+    padding-right: 0;
+}
+.margin-left-15 {
+    margin-left: -15px;
+}
+.margin-top-15 {
+    margin-top: 15px !important;
+}
+%text-block {
+    position: absolute;
+    bottom: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-block-big {
+    width: 540px;
+    @extend %text-block;
+}
+.text-block-small {
+    height: 40px;
+    @extend %text-block;
+}
+.position-relative {
+    position: relative;
+}
+.text-author {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.text-title-video {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.text-views {
+    font-size: 12px;
+    float: right;
+    padding-top: 2px;
+}
+.box-upload {
+    height: 158px;
+    margin: auto;
+    border: 1px solid lightgray;
+    margin-top: 11px;
+}
+.icon-download {
+    font-size: 36px;
+    color: lightgray;
+}
+.box-upload-val {
+    margin-top: 20%;
+    margin-left: 18%;
+}
+.text-download {
+    font-size: 14px;
+    color: grey;
+    margin-left: 20px;
+}
+.text-sub {
+    font-size: 22px;
+    color: grey;
+}
+.text-sub-activity {
+    font-size: 22px;
+    padding-left: 10px;
+    color: grey;
+}
+.text-sub-right {
+    float: right;
+    color: grey;
+    margin-top: 5px;
+}
+.text-sub-right-channel {
+    float: right;
+    color: grey;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+hr {
+    margin: 7px !important;
+}
+.breadcrumb-activity {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: transparent;
+    font-size: 12px;
+    margin-top: -3px;
+    float: right;
+    color: grey;
+}
+.box-people {
+    margin-top: 30px;
+}
+footer {
+    margin-top: 5%;
+    margin-left: 23px;
+    margin-right: 15px;
+}
+.icon-footer {
+    background-color: grey;
+    width: 40px;
+    height: 30px;
+    display: inline-flex;
+    margin: 5px;
+    border-radius: 2px;
+    color: white;
+}
+.text-copyright {
+    margin-top: 3%;
+    color: grey;
+    font-size: 14px;
+}
+%breadcrum-footer {
+    font-size: 14px;
+    color: grey;
+    background-color: transparent;
+    padding: 0;
+}
+.breadcrumb-footer-above {
+    @extend %breadcrum-footer;
+    margin: 2% 2px;
+}
+.breadcrumb-footer-under {
+    @extend %breadcrum-footer;
+    margin: 3px 2px;
+}
+::ng-deep .breadcrumb-item::before {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+.breadcrumb-header {
+    background-color: transparent;
+    margin-left: 15px;
+    color: grey;
+    font-size: 18px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-radius: 0;
+    padding-left: 0;
+}
+.bg-light {
+    background-color: transparent !important;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+::ng-deep .navbar-brand {
+    font-size: 30px !important;
+    color: grey !important;
+    font-weight: 800;
+}
+.navbar-network {
+    font-weight: 100;
+}
+.brd-menu {
+    padding: 0 15px !important;
+}
+.header-menu {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.input-search {
+    border-radius: 0;
+    border-right: 0;
+    width: 500px;
+    margin-left: 230px;
+    border: none;
+    font-size: 14px;
+}
+.btn-search {
+    border-radius: 0;
+    color: grey;
+    background-color: transparent;
+    border-left: 0;
+    border: none;
+}
+.icon-header{
+    color: grey;
+    margin-right: 5px;
+    // margin: 10px;
+}
+.btn-upload{
+    font-size: 14px;
+    margin: 0 10px;
+}
+.text-user-login{
+    margin: 0;
+    padding: 0;
+    color: grey;
+    font-size: 14px;
+    margin-left: 20px;
+}
