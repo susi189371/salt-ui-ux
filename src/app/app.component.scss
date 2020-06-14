@@ -5,23 +5,27 @@
 }
 .title-activity {
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
     white-space: nowrap;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #e6e1e1;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .box-activity {
     margin-bottom: 8px;
 }
 .text-small {
     color: #e6e1e1;
+    font-size: 12px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .author-activity {
     font-size: 16px;
     color: #e6e1e1;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .bottom-right {
     position: absolute;
@@ -46,6 +50,9 @@
     font-size: 14px;
     color: #943e46;
     text-transform: capitalize;
+}
+.position-channels {
+    justify-content: center;
 }
 .row {
     margin-left: 0;
@@ -72,7 +79,7 @@
 .margin-top-15 {
     margin-top: 15px !important;
 }
-%text-block {
+.text-block-big {
     position: absolute;
     bottom: 0px;
     background: rgb(0, 0, 0);
@@ -84,13 +91,18 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-.text-block-big {
-    // width: 540px;
-    @extend %text-block;
-}
 .text-block-small {
     height: 40px;
-    @extend %text-block;
+    position: absolute;
+    bottom: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .position-relative {
     position: relative;
@@ -98,15 +110,18 @@
 .text-author {
     text-transform: capitalize;
     font-size: 14px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .text-title-video {
     text-transform: capitalize;
     font-size: 20px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .text-views {
     font-size: 12px;
     float: right;
     padding-top: 2px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .box-upload {
     height: 31%;
@@ -117,6 +132,7 @@
 .icon-download {
     font-size: 36px;
     color: lightgray;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .box-upload-val {
     margin-top: 20%;
@@ -126,26 +142,33 @@
     font-size: 14px;
     color: #e6e1e1;
     margin-left: 20px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .text-sub {
     font-size: 22px;
     color: #e6e1e1;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .text-sub-activity {
     font-size: 22px;
     padding-left: 10px;
     color: #e6e1e1;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .text-sub-right {
     float: right;
     color: #e6e1e1;
     margin-top: 5px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
+    font-size: 14px;
 }
 .text-sub-right-channel {
     float: right;
     color: #e6e1e1;
     margin-top: 5px;
     margin-right: 15px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
+    font-size: 14px;
 }
 hr {
     margin: 7px !important;
@@ -154,10 +177,12 @@ hr {
     margin-bottom: 0;
     padding-bottom: 0;
     background: transparent;
-    font-size: 12px;
-    margin-top: -3px;
+    text-align: right;
+    margin-top: 4px;
     float: right;
     color: #e6e1e1;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
+    font-size: 14px;
 }
 .box-people {
     margin-top: 30px;
@@ -165,7 +190,7 @@ hr {
 footer {
     margin-top: 5%;
     margin-left: 23px;
-    margin-right: 15px;
+    padding-right: 23px;
 }
 .icon-footer {
     background-color: #e6e1e1;
@@ -180,20 +205,23 @@ footer {
     margin-top: 3%;
     color: #e6e1e1;
     font-size: 14px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
-%breadcrum-footer {
+.breadcrumb-footer-above {
     font-size: 14px;
     color: #e6e1e1;
     background-color: transparent;
     padding: 0;
-}
-.breadcrumb-footer-above {
-    @extend %breadcrum-footer;
     margin: 2% 2px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .breadcrumb-footer-under {
-    @extend %breadcrum-footer;
+    font-size: 14px;
+    color: #e6e1e1;
+    background-color: transparent;
+    padding: 0;
     margin: 3px 2px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 ::ng-deep .breadcrumb-item::before {
     padding-right: 2rem !important;
@@ -209,6 +237,7 @@ footer {
     border-top: 2px solid #e6e1e1;
     border-radius: 0;
     padding-left: 0;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .bg-light {
     background-color: transparent !important;
@@ -218,7 +247,8 @@ footer {
 ::ng-deep .navbar-brand {
     font-size: 30px !important;
     color: #e6e1e1 !important;
-    font-weight: 800;
+    font-weight: 500;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .navbar-network {
     font-weight: 100;
@@ -233,10 +263,9 @@ footer {
 .input-search {
     border-radius: 0;
     border-right: 0;
-    // width: 500px;
-    // margin-left: 256px;
     border: none;
     font-size: 14px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .btn-search {
     border-radius: 0;
@@ -251,15 +280,14 @@ footer {
 }
 .btn-user {
     font-size: 14px;
-    height: 100%;
     margin-top: 1%;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .btn-upload {
     font-size: 14px;
     margin: 0 10px;
     color: #943e46;
     background-color: #fff;
-    height: 100%;
     margin-top: 1%;
 }
 .text-user-login {
@@ -267,6 +295,7 @@ footer {
     padding: 0;
     color: #e6e1e1;
     font-size: 14px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
     margin-left: 10px;
 }
 .text-user-login-big {
@@ -275,6 +304,7 @@ footer {
     color: #e6e1e1;
     font-size: 18px;
     margin-left: 10px;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
 }
 .bg-all {
     background-color: #943e46;
@@ -286,50 +316,77 @@ footer {
 .hr-bottom {
     border: 0.6px solid #e6e1e1;
 }
-.navbar-toggler{
+.hr-bottom-channel {
+    border: 0.6px solid #e6e1e1;
+}
+.navbar-toggler {
     background-color: #fff;
 }
-.nav-menu{
+.nav-menu {
     justify-content: flex-end;
-    // display: inline-flex;
 }
-
-// @media (min-width: 320px) and (max-width: 575.98) {
-@media (min-width: 320px) and (max-width: 575.98px) {
-    .btn-user {
-        margin-top: 2%;
+.activity-desktop {
+    display: block;
+}
+.activity-mobile {
+    display: none;
+}
+.video-desktop {
+    display: block;
+}
+.video-mobile {
+    display: none;
+}
+.nav-desktop {
+    display: flex;
+}
+.nav-mobile {
+    display: none;
+}
+.box-img-activity {
+    padding: 0 10px;
+}
+.box-text-activity {
+    padding: 0 0 0 29px;
+}
+@media (min-width: 320px) and (max-width: 430.98px) {
+    .bg-light {
+        margin-bottom: 0;
     }
-    .btn-upload {
-        margin-top: 2%;
+    .search-desktop {
+        margin-top: 10%;
     }
     .navbar-network {
-        font-size: 20px;
+        font-size: 26px;
     }
     .navbar-social {
-        font-size: 20px;
+        font-size: 26px;
     }
     .text-user-login-big {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .text-user-login {
+        font-size: 10px;
     }
     .img-activity {
         width: 100%;
         height: 95%;
     }
     .breadcrumb-header {
-        font-size: 8px;
+        font-size: 0.553rem;
     }
     .breadcrumb-item::before {
         padding-right: 0.1rem !important;
         padding-left: 0.1rem !important;
     }
     .text-title-video {
-        font-size: 12px;
+        font-size: 14px;
     }
     .text-author {
-        font-size: 8px;
+        font-size: 12px;
     }
     .text-views {
-        font-size: 8px;
+        font-size: 12px;
     }
     .text-block-big {
         padding: 5px;
@@ -342,41 +399,193 @@ footer {
         font-size: 14px;
         margin-top: 2px;
     }
-    .text-sub-activity{
+    .text-sub-activity {
+        font-size: 18px;
+        width: 36%;
+    }
+    .grid-channel {
         margin-top: 18%;
     }
-    .grid-channel{
+    .grid-document {
         margin-top: 18%;
     }
-    .grid-document{
-        margin-top: 18%;
-    }
-    .breadcrumb-footer-above{
+    .breadcrumb-footer-above {
         font-size: 8px;
     }
-    .text-copyright{
+    .text-copyright {
         font-size: 10px;
     }
-    .breadcrumb-footer-under{
+    .breadcrumb-footer-under {
         font-size: 8px;
+    }
+    .breadcrumb-activity {
+        font-size: 14px;
+    }
+    .activity-top {
+        margin-top: 17%;
+    }
+    .box-channel {
+        height: auto;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .img-channels {
+        width: 100%;
+        height: 50px;
+    }
+    .box-upload-val {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .video-desktop {
+        display: none;
+    }
+    .video-mobile {
+        display: block;
+    }
+    .text-small {
+        font-size: 13px;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .nav-mobile {
+        display: block;
+    }
+    .input-search {
+        height: 36px;
+    }
+    .nav-btn {
+        float: right;
+    }
+    .btn-upload {
+        margin-left: 0;
+    }
+    .hr-bottom-channel {
+        display: none;
+    }
+    .hr-document {
+        border: 1.2px solid #e6e1e1;
+    }
+    .box-text-activity {
+        padding: 0 0 0 8px;
+    }
+}
+@media (min-width: 431px) and (max-width: 575.98px) {
+    .navbar-network {
+        font-size: 26px;
+    }
+    .navbar-social {
+        font-size: 26px;
+    }
+    .text-user-login-big {
+        font-size: 14px;
+    }
+    .img-activity {
+        width: 100%;
+        height: 95%;
+    }
+    .breadcrumb-header {
+        font-size: 12px;
+    }
+    .breadcrumb-item::before {
+        padding-right: 0.2rem !important;
+        padding-left: 0.2rem !important;
+    }
+    .text-title-video {
+        font-size: 14px;
+    }
+    .text-author {
+        font-size: 12px;
+    }
+    .text-views {
+        font-size: 12px;
+    }
+    .text-block-big {
+        padding: 5px;
+        height: 50px;
+    }
+    .text-sub {
+        font-size: 18px;
+    }
+    .text-sub-right {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    .text-sub-activity {
+        width: 60%;
+        font-size: 18px;
+    }
+    .grid-channel {
+        margin-top: 5%;
+    }
+    .grid-document {
+        margin-top: 5%;
+    }
+    .breadcrumb-footer-above {
+        font-size: 8px;
+    }
+    .text-copyright {
+        font-size: 10px;
+    }
+    .breadcrumb-footer-under {
+        font-size: 8px;
+    }
+    .activity-top {
+        margin-top: 6%;
+    }
+    .activity-desktop {
+        display: none;
+    }
+    .activity-mobile {
+        display: block;
+    }
+    .box-upload-val {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .text-small {
+        font-size: 12px;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .nav-mobile {
+        display: block;
+    }
+    .input-search {
+        height: 36px;
+    }
+    .nav-btn {
+        float: right;
+    }
+    .btn-upload {
+        margin-left: 0;
+    }
+    .bg-light {
+        margin-bottom: 0;
+    }
+    .hr-bottom-channel {
+        display: none;
+    }
+    .hr-document {
+        border: 1.2px solid #e6e1e1;
     }
 }
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .btn-user {
-        margin-top: 2%;
+        margin-top: 0%;
     }
     .btn-upload {
-        margin-top: 2%;
-        color: transparent;
-        width: 13%;
+        margin-top: 0%;
     }
     .navbar-network {
-        font-size: 16px;
+        font-size: 26px;
     }
     .navbar-social {
-        font-size: 16px;
+        font-size: 26px;
     }
     .text-user-login-big {
         font-size: 14px;
@@ -392,30 +601,42 @@ footer {
         width: 100%;
         height: 95%;
     }
-    .grid-channel{
-        margin-top: 18%;
+    .grid-channel {
+        margin-top: 5%;
     }
-    .grid-document{
-        margin-top: 18%;
+    .grid-document {
+        margin-top: 5%;
     }
-    .breadcrumb-footer-above{
+    .breadcrumb-footer-above {
         font-size: 10px;
     }
-    .text-copyright{
+    .text-copyright {
         font-size: 12px;
     }
-    .breadcrumb-footer-under{
+    .breadcrumb-footer-under {
         font-size: 10px;
     }
-    .text-sub-activity{
-        margin-top: 18%;
+    .activity-top {
+        margin-top: 6%;
     }
-    // .box-people{
-    //     margin-top: 22%;
-    // }
+    .text-sub-activity {
+        width: 60%;
+    }
+    .activity-mobile {
+        display: block;
+    }
+    .activity-desktop {
+        display: none;
+    }
+    .box-upload-val {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .hr-bottom-channel {
+        display: none;
+    }
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
     .breadcrumb-item::before {
         padding-right: 1.5rem !important;
@@ -425,10 +646,10 @@ footer {
         padding: 5px;
     }
     .btn-user {
-        margin-top: 1.5%;
+        margin-top: 0%;
     }
     .btn-upload {
-        margin-top: 1.5%;
+        margin-top: 0%;
     }
     .text-user-login-big {
         font-size: 16px;
@@ -447,7 +668,7 @@ footer {
     }
     .img-activity {
         width: 150%;
-        height: 55px;
+        height: auto;
         margin-top: 7px;
         object-fit: cover;
     }
@@ -478,12 +699,34 @@ footer {
         margin-top: 15%;
         margin-left: 15%;
     }
-    .text-sub-right-channel{
+    .text-sub-right-channel {
         font-size: 12px;
+    }
+    .box-scroll {
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+    .breadcrumb-activity {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .text-sub-right {
+        font-size: 12px;
+    }
+    .text-sub-activity {
+        font-size: 20px;
+    }
+    .box-channel {
+        height: 100px;
+    }
+    .img-channels {
+        height: 65px;
+    }
+    .box-text-activity {
+        padding: 0 0 0 8px;
     }
 }
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1100px) {
     .breadcrumb-item::before {
         padding-right: 1.5rem !important;
@@ -491,6 +734,28 @@ footer {
     }
     .text-block-small {
         padding: 5px;
+    }
+    .img-activity {
+        height: auto;
+    }
+    .box-scroll {
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+    .breadcrumb-activity {
+        font-size: 14px;
+    }
+    .text-sub-right {
+        font-size: 14px;
+    }
+    .box-img-activity {
+        padding: 0 7px;
+    }
+    .box-text-activity {
+        padding: 0 0 0 8px;
+    }
+    .img-activity{
+        width: 316px;
     }
 }
 
